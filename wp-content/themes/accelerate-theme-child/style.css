@@ -1,0 +1,237 @@
+/*
+ Theme Name:   Accelerate Theme Child
+ Theme URI:    http://example.com/accelerate-theme-child/
+ Description:  Accelerate Child Theme - Accelerate
+ Author:       Rebecca Taylor
+ Author URI:   http://kindlingscript.com
+ Template:     accelerate-theme
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  accelerate-theme-child
+*/
+
+@import url('../accelerate-theme/style.css');
+
+h2 {
+  font-weight: 300;
+  font-size: 26px;
+}
+
+.home-page {
+  background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+}
+
+.top {
+  background: url("img/taxi-photo.jpg") no-repeat scroll bottom center / cover rgba(0, 0, 0, 0);
+  height: 240px;
+  margin: 0 0 80px;
+  padding: 50px 0;
+}
+
+#top-about h2 {
+  text-align: center;
+  line-height: 1.3;
+}
+
+.hero h2 {
+  color: #fff;
+}
+
+.green {
+  color: #45ac9d;
+  font-weight: 600;
+}
+
+#masthead {
+  background: none repeat scroll 0 0 #45ac9d;
+}
+
+.button {
+  background: none repeat scroll 0 0 #45ac9d;
+}
+
+.blog-post {
+	width: 50%;
+}
+
+.blog-post h4 {
+  font-size: 16px;
+  font-family: 'Montserrat';
+  color: #a6a6a6;
+  text-transform: uppercase;
+}
+
+.blog-post h2 {
+  font-size: 24px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+.blog-post .read-more-link {
+  font-size: 24px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  color: #45ac9d;
+  text-transform: uppercase;
+}
+
+#content, #content-contact {
+  padding-top: 3rem;
+}
+
+#content-contact, #top-about {
+  width: 650px;
+  margin: 0 auto;
+}
+
+.about-project {
+    float: left;
+    width: 32%;
+    margin-right: 1rem;
+}
+
+.about-project h2 {
+  font-size: 28px;
+  margin-bottom: 14px;
+}
+
+.intro-brief {
+  margin-bottom: 2.5rem;
+  font-size: 0.95rem;
+}
+
+.project-attributes {
+  color: grey;
+  margin-bottom: 14px;
+}
+
+.project-description {
+  margin-bottom: 32px;
+  font-size: 1rem;
+}
+
+.images img {
+  float: right;
+  margin-bottom: 2rem;
+}
+
+.featured-work {
+  margin-bottom: 7.5rem;
+}
+
+.featured-work .site-content h4 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+}
+
+.featured-work .site-content ul {
+  list-style: none;
+  margin: 0;
+}
+
+.featured-work .site-content ul li {
+  display: inline-block;
+  padding-left: 15px;
+}
+
+.featured-work .site-content ul li h3 {
+  text-align: center;
+}
+
+.clear {
+  clear: both;
+}
+
+.wrap-inline-left {
+  float: left;
+  width: 48%;
+  clear: none !important;
+}
+
+.wrap-inline-right {
+  float: right;
+  width: 48%;
+  clear: none !important;
+}
+
+.nf-field-label label {
+  font-weight: normal !important;
+  font-size: 16px;
+}
+
+.submit-contact {
+  float: right;
+}
+
+.green-btn {
+  background-color: #45ac9d;
+  color: white;
+  border: none;
+  padding: 20px 80px;
+  font-weight: 600;
+}
+
+.services-intro {
+  width: 550px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 75px;
+}
+
+.flex-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  margin-right: 50px;
+}
+
+.title {
+  color: #3b3b3b;
+  padding-bottom: 15px;
+  font-weight: 600;
+  line-height: 1.15;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.services {
+  margin-top: 100px;
+}
+
+.service-about {
+  width: 650px;
+}
+
+.contact-us .divider {
+  border-bottom: 1px dotted #e3e1e1;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+}
+
+.nav-menu li {
+  display: inline;
+  margin-right: 20px;
+  text-transform: uppercase;
+}
+
+#four-oh-four {
+  margin-left: 50px;
+  text-align: center;
+}
+
+a.link {
+  color: #45ac9d;
+  font-weight: 600;
+}
