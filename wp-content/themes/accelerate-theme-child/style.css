@@ -51,28 +51,48 @@ h2 {
 }
 
 .blog-post {
-	width: 50%;
+  margin-bottom: 50px;
 }
 
-.blog-post h4 {
+.blog-post h4,
+#pi_simpletwittertweets-2 > h4 {
   font-size: 16px;
   font-family: 'Montserrat';
   color: #a6a6a6;
   text-transform: uppercase;
+  margin: 36px 0 12px;
 }
 
-.blog-post h2 {
+.blog-post h2,
+#pi_simpletwittertweets-2 > h2 {
   font-size: 24px;
   font-family: 'Montserrat';
   font-weight: bold;
+  margin: 36px 0 30px;
 }
 
-.blog-post .read-more-link {
+.widget ul {
+  list-style: none;
+  margin: 0 0 40px 0;
+}
+
+.blog-post .read-more-link,
+.widget-area > a {
   font-size: 24px;
   font-family: 'Montserrat';
   font-weight: bold;
   color: #45ac9d;
   text-transform: uppercase;
+}
+
+.widget-area > a {
+  padding: 0 40px;
+}
+
+.widget li {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
 }
 
 #content, #content-contact {
@@ -234,4 +254,10 @@ h2 {
 a.link {
   color: #45ac9d;
   font-weight: 600;
+}
+
+.post-entry {
+  border-bottom: 1px solid #bfbfbf;
+  padding-bottom: 0;
+  margin-bottom: 30px;
 }

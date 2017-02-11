@@ -39,3 +39,16 @@ function create_custom_post_types() {
   );
 }
 add_action( 'init', 'create_custom_post_types' );
+
+function accelerate_child_widget_init() {
+  register_sidebar( array(
+      'name' => __( 'Homepage sidebar', 'accelerate-theme-child' ),
+      'id' => 'sidebar-2',
+      'description' => __( 'Appears on the static front page template', 'accelerate-theme-child' ),
+      'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+      'after_widget' => '</aside>',
+      'before_title' => '<h4 class="widget-title">',
+      'after_title' => '</h4><h2>@Accelerate</h2>'
+    ) );
+}
+add_action( 'widgets_init', 'accelerate_child_widget_init');

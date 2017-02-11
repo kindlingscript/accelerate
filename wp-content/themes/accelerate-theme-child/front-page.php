@@ -56,7 +56,7 @@ get_header(); ?>
 
 <section class="recent-posts">
   <div class="site-content">
-    <div class="blog-post">
+    <div class="blog-post wrap-inline-left">
       <h4>From the Blog</h4>
       <?php query_posts('posts_per_page=1'); ?>
         <?php while ( have_posts() ) : the_post(); ?>
@@ -66,6 +66,13 @@ get_header(); ?>
         <?php endwhile; ?>
       <?php wp_reset_query(); ?>
     </div>
+
+    <?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+      <div id="secondary" class="widget-area wrap-inline-right" role="complementary">
+        <?php dynamic_sidebar( 'sidebar-2' ) ?>
+        <a href="https://twitter.com/intent/follow?screen_name=kindlingscript" class="read-more-link">Follow us <span>&rsaquo;</span></a>
+      </div>
+    <?php endif; ?>
   </div>
 </section>
 
